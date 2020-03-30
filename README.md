@@ -10,8 +10,8 @@ Required:
 VPS Commands:
 
 wget -q https://raw.githubusercontent.com/blockidchain/MN-Install-Script/master/masternode-install.sh <br>
-sudo chmod +x install-sapp-linux-16.04.sh <br>
-./install-sapp-linux-16.04.sh
+sudo chmod +x masternode-install.sh <br>
+./masternode-install.sh.sh
 
 ### For Ubuntu-18.04
 Required:
@@ -22,5 +22,5 @@ Required:
 VPS Commands:
 
 wget -q https://raw.githubusercontent.com/blockidchain/MN-Install-Script/master/masternode-install.sh <br>
-sudo chmod +x install-sapp-linux-18.04.sh <br>
-./install-sapp-linux-18.04.sh
+sudo chmod +x masternode-install.sh <br>
+./masternode-install.sh
