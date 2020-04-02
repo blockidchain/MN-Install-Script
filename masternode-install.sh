@@ -10,8 +10,8 @@ COIN_TGZ='https://github.com/blockidchain/blockidcoin/releases/download/V1.0.0/b
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='blockidcoind'
 COIN_EXPLORER='http://explorer.blockidcoin.com'
-COIN_PORT=54712
-RPC_PORT=54712
+COIN_PORT=14215
+RPC_PORT=14215
 
 NODEIP=$(curl -s4 icanhazip.com)
 
