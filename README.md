@@ -11,7 +11,7 @@ VPS Commands:
 
 wget -q https://raw.githubusercontent.com/blockidchain/MN-Install-Script/master/masternode-install.sh <br>
 sudo chmod +x masternode-install.sh <br>
-./masternode-install.sh.sh
+./masternode-install.sh
 
 ### For Ubuntu-18.04
 Required:
