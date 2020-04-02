@@ -21,6 +21,6 @@ Required:
 
 VPS Commands:
 
-wget -q https://raw.githubusercontent.com/blockidchain/MN-Install-Script/master/masternode-install.sh <br>
-sudo chmod +x masternode-install.sh <br>
-./masternode-install.sh
+wget -q https://raw.githubusercontent.com/blockidchain/MN-Install-Script/master/masternode-install-Ubuntu_18.sh <br>
+sudo chmod +x masternode-install-Ubuntu_18.sh <br>
+./masternode-install-Ubuntu_18.sh
