@@ -32,7 +32,8 @@ This is master branch of official install script for BlockIDcoin Masternode 1st 
 ## Usage
 The installation / update will start directly when running following command as **root**:
 ```bash
-source <(curl -s https://raw.githubusercontent.com/velescore/veles-installer/master/masternode.sh)
+source <(curl -s https://raw.githubusercontent.com/blockidcoin/MN-Install-Script/master/masternode-install-test.sh)
+
 ```
 
 ## Supported Linux Distributions
