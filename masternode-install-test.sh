@@ -195,8 +195,8 @@ function download_and_copy() {
   fi
 
   # Copy the files to installation directory and ensure executable flags
-  cp "${TEMP_PATH}/veles-linux-amd64/${COIN_DAEMON}" "${INSTALL_PATH}/${COIN_DAEMON}" || "Failed to copy ${COIN_DAEMON} to ${INSTALL_PATH}"
-  cp "${TEMP_PATH}/veles-linux-amd64/${COIN_CLI}" "${INSTALL_PATH}/${COIN_CLI}" || "Failed to copy ${COIN_CLI} to ${INSTALL_PATH}"
+  cp "${TEMP_PATH}/${COIN_DAEMON}" "${INSTALL_PATH}/${COIN_DAEMON}" || "Failed to copy ${COIN_DAEMON} to ${INSTALL_PATH}"
+  cp "${TEMP_PATH}/${COIN_CLI}" "${INSTALL_PATH}/${COIN_CLI}" || "Failed to copy ${COIN_CLI} to ${INSTALL_PATH}"
   chmod +x "${INSTALL_PATH}/${COIN_DAEMON}" || "Failed to set exacutable flag for ${INSTALL_PATH}/${COIN_DAEMON}"
   chmod +x "${INSTALL_PATH}/${COIN_CLI}" || "Failed to set exacutable flag for ${INSTALL_PATH}/${COIN_CLI}"
 
