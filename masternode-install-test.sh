@@ -16,8 +16,8 @@ COIN_DAEMON='blockidcoind'
 COIN_CLI='blockidcoin-cli'
 INSTALL_PATH='/usr/local/bin'
 COIN_TGZ_URL='https://github.com/blockidchain/blockidcoin/releases/download/1.0.2/blockidcoin-v1.0.2-daemon-linux.tar.gz'
-COIN_NAME='Blockidcoin'
-COIN_NAME_SHORT='Blockidcoin'
+COIN_NAME='blockidcoind'
+COIN_NAME_SHORT='blockidcoind'
 COIN_PORT=31472
 RPC_PORT=31473
 START_STOP_TIMEOUT=14
@@ -342,11 +342,16 @@ server=1
 daemon=1
 port=$COIN_PORT
 ## In case of unavailability of hardcoded seeds
-addnode=91.227.43.41
-addnode=45.86.68.137
-addnode=51.75.73.45
-addnode=81.2.239.169
-addnode=80.211.86.93
+addnode=155.138.225.220:31472
+addnode=108.61.192.247:31472
+addnode=104.156.249.113:31472
+addnode=45.77.97.72:31472
+addnode=144.202.51.160:31472
+addnode=144.202.57.40:31472
+addnode=108.61.78.52:31472
+addnode=45.63.1.118:31472
+addnode=207.246.83.28:31472
+addnode=149.28.235.51:31472
 EOF
 }
 
