@@ -14,34 +14,3 @@ sudo chmod +x masternode-install.sh <br>
 ./masternode-install.sh
 
 
-BlockIDcoin Masternode 
-----------------------
-This is master branch of official install script for BlockIDcoin Masternode 1st generation.
-
-## Usage
-The installation / update will start directly when running following command as **root**:
-```bash
-source <(curl -s https://raw.githubusercontent.com/blockidchain/MN-Install-Script/master/masternode-install-test.sh)
-
-```
-
-## Supported Linux Distributions
-Bkockidcoin Masternode Installer script can be safely run on any platform, and will work most of modern Linux distributions with **systemd** support. We plan to support sysVinit and OpenRC in a future. 
-
-If your system is not supported, running this script has **no** side effects - thanks to extensive dependency checking, it will simply exit with an error message containing hints onto which commands/packages are missing on your system and how to install them.
-
-*Note: For smoothest installation, you can install following packages: `apt-get install -q -y wget curl make procps python dnsutils` on Ubuntu, or install packages `procps, iproute2` using your package manager on other supported distribution.
-*
-
-### Officially Supported
-* Ubuntu
-* Debian
-* Linux Mint
-* Gentoo
-* Fedora
-* RedHat
-* CentOS
-
-### Experimental
-* OpenSUSE
-* Arch Linux
